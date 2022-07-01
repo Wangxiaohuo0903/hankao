@@ -1,0 +1,6 @@
+framework module Pods_Chinese_ChineseDev {
+  umbrella header "Pods-Chinese-ChineseDev-umbrella.h"
+
+  export *
+  module * { export * }
+}
