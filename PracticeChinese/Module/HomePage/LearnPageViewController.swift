@@ -334,23 +334,23 @@ class LearnPageViewController: UIViewController,NetworkRequestFailedLoadDelegate
     @objc func practiseClick() {
         let vc = PractiseLandViewController()
         vc.achievement = sunNum
-        let nav1 = UINavigationController(rootViewController: vc)
-        SlideMenuOptions.rightViewWidth = ScreenUtils.width / 4 * 3
-        let slideMenuController = SlideMenuController(mainViewController: nav1, rightMenuViewController: CompletedLandVC())
-        slideMenuController.modalPresentationStyle = .fullScreen
-        self.present(slideMenuController, animated: false) {
-
-        }
-//跳转到Story Board的方法
-//        if #available(iOS 13.0, *) {
-//            guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "Login2ViewController") as? Login2ViewController else {
-//                fatalError("Unable to Instantiate My View Controller")
-//            };
-//            myViewController.modalPresentationStyle = .fullScreen
-//            present(myViewController, animated: true)
-//        } else {
-//            // Fallback on earlier versions
+//        let nav1 = UINavigationController(rootViewController: vc)
+//        SlideMenuOptions.rightViewWidth = ScreenUtils.width / 4 * 3
+//        let slideMenuController = SlideMenuController(mainViewController: nav1, rightMenuViewController: CompletedLandVC())
+//        slideMenuController.modalPresentationStyle = .fullScreen
+//        self.present(slideMenuController, animated: false) {
+//
 //        }
+//跳转到Story Board的方法
+        if #available(iOS 13.0, *) {
+            guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "Login2ViewController") as? Login2ViewController else {
+                fatalError("Unable to Instantiate My View Controller")
+            };
+            myViewController.modalPresentationStyle = .fullScreen
+            present(myViewController, animated: true)
+        } else {
+            // Fallback on earlier versions
+        }
 
     }
     

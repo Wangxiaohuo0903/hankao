@@ -10,30 +10,31 @@ import UIKit
 
 class Login2ViewController: UIViewController {
 @IBOutlet weak var label1:UILabel!
-@IBOutlet weak var text1:UITextField!
+@IBOutlet weak var code_text:UITextField!
+    @IBOutlet weak var user_text:UITextField!
     @IBOutlet weak var im1:UIImageView!
+    @IBOutlet weak var Login_Button:UIButton!
+    var Radius=20
+    var Height=45
     override func viewDidLoad() {
-//        label1.text?="A";
+
         super.viewDidLoad()
-//        self.view.backgroundColor = UIColor.red
-//        self.label1.text?="A"
-//        label1.text?="A"
-        // Do any additional setup after loading the view.
-//        print(self.label1.text)
+        self.user_text.layer.masksToBounds=true
+        self.code_text.layer.masksToBounds=true
+        self.user_text.layer.cornerRadius=CGFloat(Radius)
+        self.code_text.layer.cornerRadius=CGFloat(Radius)
+        self.user_text.height_s=CGFloat(Height)
+        self.code_text.height_s=CGFloat(Height)
+        self.Login_Button.layer.masksToBounds=true
+        self.Login_Button.layer.cornerRadius=CGFloat(Radius)
+        self.Login_Button.height_s=CGFloat(Height)
+      
+
     }
     @IBAction func bu1(sender:AnyObject){
-        label1.text=text1.text
-//        let nav1 = UINavigationController(rootViewController: LearnPageViewController())
-//
-//        SlideMenuOptions.contentViewScale = 1
-//        SlideMenuOptions.hideStatusBar = false
-//        SlideMenuOptions.contentViewDrag = true
-//        if(AdjustGlobal().isiPad){
-//            SlideMenuOptions.leftViewWidth = 270 * 2
-//        }
-//        let slideMenuController = SlideMenuController(mainViewController: nav1, leftMenuViewController: MePageViewController())
-//        present(slideMenuController,animated:true)
-        dismiss(animated: true, completion: nil)
+        
+
+        //dismiss(animated: true, completion: nil)
        // UINavigationController.popViewController(animated:true)
     }
 
