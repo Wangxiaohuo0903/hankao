@@ -31,11 +31,12 @@ class Login2ViewController: UIViewController {
       
 
     }
-    @IBAction func bu1(sender:AnyObject){
+    @IBAction func Login_Button_Click(sender:AnyObject){
         
-
+        let user_id=self.user_text.text
+        self.code_text.text=user_id
         //dismiss(animated: true, completion: nil)
-       // UINavigationController.popViewController(animated:true)
+  
     }
 
     /*

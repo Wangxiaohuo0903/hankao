@@ -72,16 +72,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate,ChActivityViewCancleDelega
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         //      huohuo:  跳转到登陆界面,首次运行时注释掉，第二次运行时取消注释，之后初始界面就是登陆注册，点击button回到主界面
-            if #available(iOS 13.0, *) {
-                guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "Login2ViewController") as? Login2ViewController else {
-                    fatalError("Unable to Instantiate My View Controller")
-                };
-                myViewController.modalPresentationStyle = .fullScreen
-
-                self.window?.rootViewController!.present(myViewController,animated:true)
-            } else {
-                // Fallback on earlier versions
-            }
+//            if #available(iOS 13.0, *) {
+//                guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "Login2ViewController") as? Login2ViewController else {
+//                    fatalError("Unable to Instantiate My View Controller")
+//                };
+//                myViewController.modalPresentationStyle = .fullScreen
+//
+//                self.window?.rootViewController!.present(myViewController,animated:true)
+//            } else {
+//                // Fallback on earlier versions
+//            }
 
         
 
