@@ -28,17 +28,48 @@ class Login2ViewController: UIViewController {
         self.Login_Button.layer.masksToBounds=true
         self.Login_Button.layer.cornerRadius=CGFloat(Radius)
         self.Login_Button.height_s=CGFloat(Height)
-      
+        self.Login_Button.alpha=0.5
+        self.Login_Button.layer.opacity=0.5
+
 
     }
     @IBAction func Login_Button_Click(sender:AnyObject){
         
-        let user_id=self.user_text.text
-        self.code_text.text=user_id
+        let User_id=self.user_text.text
+        let Code = self.code_text.text
+        if(User_id?.isEmpty == true || Code?.isEmpty == true)
+        {
+            ShowAlert(Ch_Message: "账号/密码不得为空", En_Message: "The account number/password must not be empty",Button_text: "确认 OK")
+        }
         //dismiss(animated: true, completion: nil)
-  
+        
     }
-
+    func ShowAlert(Ch_Message:String,En_Message:String,Button_text:String){
+        let alert = UIAlertController(
+            title:Ch_Message,
+            message:En_Message,
+            preferredStyle: .alert)
+        let action=UIAlertAction(
+            title:Button_text,
+            style:.default,
+            handler:nil)
+        alert.addAction(action)
+        present(alert,animated: true,completion: nil)
+    }
+    @IBAction func TransferEnterState(sender:AnyObject){
+        self.user_text.layer.borderWidth=1
+        self.user_text.layer.borderColor = UIColor.blue.cgColor
+        self.code_text.layer.borderWidth=0
+        self.Login_Button.alpha=1
+        self.Login_Button.layer.opacity=1
+    }
+    @IBAction func TransferEnterState2(sender:AnyObject){
+        self.code_text.layer.borderWidth=1
+        self.code_text.layer.borderColor = UIColor.blue.cgColor
+        self.user_text.layer.borderWidth=0
+        self.Login_Button.alpha=1
+        self.Login_Button.layer.opacity=1
+    }
     /*
     // MARK: - Navigation
 

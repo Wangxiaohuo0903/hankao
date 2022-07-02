@@ -50,13 +50,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="bu1WithSender:" destination="bv5-PA-KVI" eventType="touchUpInside" id="5Kc-wj-4bu"/>
+                                    <action selector="Login_Button_ClickWithSender:" destination="bv5-PA-KVI" eventType="touchUpInside" id="7Mw-II-Tec"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-fR-jqK">
-                                <rect key="frame" x="16" y="456" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder=" 用户" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tBy-j0-vPG">
                                 <rect key="frame" x="52" y="266" width="256" height="34"/>
@@ -64,6 +59,9 @@
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="TransferEnterStateWithSender:" destination="bv5-PA-KVI" eventType="touchDown" id="6yC-nW-TUb"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="游客模式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zd-pk-iF8">
                                 <rect key="frame" x="282" y="52" width="70" height="22"/>
@@ -99,6 +97,9 @@
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="TransferEnterState2WithSender:" destination="bv5-PA-KVI" eventType="touchDown" id="evi-uH-X45"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other login methods " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ach-zm-ctz">
                                 <rect key="frame" x="97" y="509" width="167" height="21"/>
@@ -114,6 +115,15 @@
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk4-b0-abn">
+                                <rect key="frame" x="5" y="472" width="69" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" selected="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button" image="Unselected"/>
+                                <state key="selected" image="selected"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -132,9 +142,11 @@
     </scenes>
     <resources>
         <image name="Microsoft_logo" width="60" height="60"/>
+        <image name="Unselected" width="15" height="15"/>
         <image name="Wechat_logoUsersliangjinDesktop登录页面登录页面assetsWechat_logo@3x.png" width="40" height="40"/>
         <image name="facebook_logo" width="40" height="40"/>
         <image name="hankao_logo" width="40" height="40"/>
         <image name="logo" width="159" height="137"/>
+        <image name="selected" width="15" height="15"/>
     </resources>
 </document>
