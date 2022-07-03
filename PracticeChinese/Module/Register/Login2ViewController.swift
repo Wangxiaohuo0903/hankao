@@ -122,7 +122,7 @@ class Login2ViewController: UIViewController, UIGestureRecognizerDelegate {
 //register
     @IBAction func Register(_ sender: Any) {
         if #available(iOS 13.0, *) {
-            guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "RegisterViewController") as? RegisterViewController else {
+            guard let myViewController = UIStoryboard(name: "Register", bundle: nil).instantiateViewController(identifier: "RegisterViewController") as? RegisterViewController else {
                 fatalError("Unable to Instantiate My View Controller")
             };
             myViewController.modalPresentationStyle = .fullScreen

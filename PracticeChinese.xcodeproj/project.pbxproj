@@ -10,6 +10,9 @@
 		01BAA82C28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
 		01BAA82D28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
 		01BAA82E28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
+		01BAA8302871627A0020EEAE /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BAA82F2871627A0020EEAE /* Register.storyboard */; };
+		01BAA8312871627A0020EEAE /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BAA82F2871627A0020EEAE /* Register.storyboard */; };
+		01BAA8322871627A0020EEAE /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BAA82F2871627A0020EEAE /* Register.storyboard */; };
 		0ED9B19C699898FE02CE6322 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E752AD2ECB992223047214E4 /* Pods_Chinese_ChineseStaging.framework */; };
 		1597825264A95E2C6E8998D0 /* Pods_Chinese_Microsoft_Learn_Chinese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33299C36CBF7AF07D4F79EB /* Pods_Chinese_Microsoft_Learn_Chinese.framework */; };
 		1ECBC153E1E40F8959274861 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63551AE634714002E4B4C1C1 /* Pods_Chinese_ChineseStaging.framework */; };
@@ -1545,6 +1548,7 @@
 
 /* Begin PBXFileReference section */
 		01BAA82B28714CB60020EEAE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		01BAA82F2871627A0020EEAE /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		244AB93221DC757D00A678B0 /* UserNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotifications.swift; sourceTree = "<group>"; };
 		244AB93721DC76FC00A678B0 /* MePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MePageViewController.swift; sourceTree = "<group>"; };
 		244AB93921DC76FC00A678B0 /* InputingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputingViewCell.swift; sourceTree = "<group>"; };
@@ -2659,6 +2663,7 @@
 				244ABE7021DCA0DF00A678B0 /* PracticeChinese-Bridging-Header.h */,
 				E04004C51EF2659D00C9AA4B /* Info.plist */,
 				E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */,
+				01BAA82F2871627A0020EEAE /* Register.storyboard */,
 				E074B4401EF764CB0072C8C3 /* API */,
 				244AB89D21DC6A2000A678B0 /* Base */,
 				E06D6BCE1EF8C4CE0001EB21 /* CustomViews */,
@@ -3238,6 +3243,7 @@
 				244AB9E621DC7B7000A678B0 /* LandView.xib in Resources */,
 				244ABDAC21DC8F4300A678B0 /* PractiseSummaryCell.xib in Resources */,
 				244ABA2A21DC7BA700A678B0 /* LearnMoreCell.xib in Resources */,
+				01BAA8302871627A0020EEAE /* Register.storyboard in Resources */,
 				244ABE2421DC8F4300A678B0 /* LearnSummaryHeader.xib in Resources */,
 				244AB96521DC76FC00A678B0 /* SettingTitleCell.xib in Resources */,
 				244ABE0F21DC8F4300A678B0 /* PractiseIntroHeader.xib in Resources */,
@@ -3262,6 +3268,7 @@
 			files = (
 				244AC04F21DE02E900A678B0 /* png in Resources */,
 				244AC05021DE02EB00A678B0 /* sound in Resources */,
+				01BAA8312871627A0020EEAE /* Register.storyboard in Resources */,
 				244ABE7421DCA2FF00A678B0 /* LearnedLessonsViewController.swift in Resources */,
 				244ABE7321DCA2E800A678B0 /* LearnedWordsViewController.swift in Resources */,
 				244ABE7221DCA2B200A678B0 /* LCRecordingView.swift in Resources */,
@@ -3328,6 +3335,7 @@
 				244ABA2921DC7BA700A678B0 /* LearningSummaryCell.xib in Resources */,
 				244ABA6B21DC7BA700A678B0 /* LandHeaderView.xib in Resources */,
 				E052DD961FB42CB80023A423 /* Assets.xcassets in Resources */,
+				01BAA8322871627A0020EEAE /* Register.storyboard in Resources */,
 				244ABE0821DC8F4300A678B0 /* LearnedWordCellCell.xib in Resources */,
 				244ABA7721DC7BA700A678B0 /* LearnSpeakSummary.xib in Resources */,
 				244ABD9621DC8F4300A678B0 /* WorkOnWordsCell.xib in Resources */,
