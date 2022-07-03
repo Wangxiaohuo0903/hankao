@@ -9,7 +9,7 @@
 import UIKit
 
 class Login2ViewController: UIViewController {
-@IBOutlet weak var label1:UILabel!
+//@IBOutlet weak var label1:UILabel!
 @IBOutlet weak var code_text:UITextField!
     @IBOutlet weak var user_text:UITextField!
     @IBOutlet weak var im1:UIImageView!
@@ -70,6 +70,25 @@ class Login2ViewController: UIViewController {
         self.Login_Button.alpha=1
         self.Login_Button.layer.opacity=1
     }
+//游客模式
+    @IBAction func AnonymousMode(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+//register
+    @IBAction func Register(_ sender: Any) {
+        if #available(iOS 13.0, *) {
+            guard let myViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateViewController(identifier: "RegisterViewController") as? RegisterViewController else {
+                fatalError("Unable to Instantiate My View Controller")
+            };
+            myViewController.modalPresentationStyle = .fullScreen
+
+            self.present(myViewController,animated:true)
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
+    
     /*
     // MARK: - Navigation
 

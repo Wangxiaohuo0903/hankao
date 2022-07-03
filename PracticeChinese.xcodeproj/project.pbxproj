@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BAA82C28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
+		01BAA82D28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
+		01BAA82E28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
 		0ED9B19C699898FE02CE6322 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E752AD2ECB992223047214E4 /* Pods_Chinese_ChineseStaging.framework */; };
 		1597825264A95E2C6E8998D0 /* Pods_Chinese_Microsoft_Learn_Chinese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33299C36CBF7AF07D4F79EB /* Pods_Chinese_Microsoft_Learn_Chinese.framework */; };
 		1ECBC153E1E40F8959274861 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63551AE634714002E4B4C1C1 /* Pods_Chinese_ChineseStaging.framework */; };
@@ -1538,6 +1541,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BAA82B28714CB60020EEAE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		244AB93221DC757D00A678B0 /* UserNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotifications.swift; sourceTree = "<group>"; };
 		244AB93721DC76FC00A678B0 /* MePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MePageViewController.swift; sourceTree = "<group>"; };
 		244AB93921DC76FC00A678B0 /* InputingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputingViewCell.swift; sourceTree = "<group>"; };
@@ -2581,6 +2585,7 @@
 			isa = PBXGroup;
 			children = (
 				946D473E286D8A9A0011FC5C /* Login2ViewController.swift */,
+				01BAA82B28714CB60020EEAE /* RegisterViewController.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -3631,6 +3636,7 @@
 				244ABCA021DC86B900A678B0 /* LCRecordingView.swift in Sources */,
 				244ABD9121DC8F4300A678B0 /* PractiseViewController.swift in Sources */,
 				E074B5ED1EF765600072C8C3 /* SpeakingTTSResult.swift in Sources */,
+				01BAA82C28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244AB9F521DC7B7000A678B0 /* LandDetailHeader.swift in Sources */,
 				E0C27DF621E4DAB700CC6E23 /* CompeletedPractiseCell.swift in Sources */,
 				E074B64C1EF766900072C8C3 /* PNChartLabel.m in Sources */,
@@ -4108,6 +4114,7 @@
 				E052DA881FB428CC0023A423 /* ReadAfterMeLesson.swift in Sources */,
 				244ABDF521DC8F4300A678B0 /* XPDragingViewSentence.swift in Sources */,
 				24608B3A21774DFD00E3A54E /* CWLog.swift in Sources */,
+				01BAA82D28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244AB9F621DC7B7000A678B0 /* LandDetailHeader.swift in Sources */,
 				E0C27DF721E4DAB700CC6E23 /* CompeletedPractiseCell.swift in Sources */,
 				244ABE6421DC8F4400A678B0 /* ToggleButton.m in Sources */,
@@ -4519,6 +4526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BAA82E28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244ABE7921DCA36700A678B0 /* LessonsViewController.swift in Sources */,
 				244ABE7621DCA31B00A678B0 /* LearnedLessonsViewController.swift in Sources */,
 				244ABE7521DCA31300A678B0 /* LearnedWordsViewController.swift in Sources */,
