@@ -597,7 +597,9 @@
 		9470C00A28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
 		9470C00B28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
 		9470C00C28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
-		949BBD98286E974D00C94707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */; };
+		94B470E42871887500906319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B470E32871887500906319 /* LaunchScreen.storyboard */; };
+		94B470E52871887500906319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B470E32871887500906319 /* LaunchScreen.storyboard */; };
+		94B470E62871887500906319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B470E32871887500906319 /* LaunchScreen.storyboard */; };
 		A30D43C94E0542CDA9997553 /* Pods_Chinese_ChineseDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B065DAD0A4280E6A8BC92C2E /* Pods_Chinese_ChineseDev.framework */; };
 		C4CE97C52091CA32009AE329 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		C4CE97C62091CA32009AE329 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -914,7 +916,6 @@
 		E052DBE31FB428CC0023A423 /* ScenarioLessonLearningItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074B4E91EF765600072C8C3 /* ScenarioLessonLearningItem.swift */; };
 		E052DBE41FB428CC0023A423 /* CustomErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074B4571EF765600072C8C3 /* CustomErrorCode.swift */; };
 		E052DBE61FB428CC0023A423 /* ExpAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08B3BA51F0E2BDF0067567A /* ExpAnimationView.swift */; };
-		E052DBF11FB428CC0023A423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */; };
 		E052DBF21FB428CC0023A423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04004C01EF2659D00C9AA4B /* Assets.xcassets */; };
 		E052DBF31FB428CC0023A423 /* removeClass.txt in Resources */ = {isa = PBXBuildFile; fileRef = E074B4DD1EF765600072C8C3 /* removeClass.txt */; };
 		E052DBFE1FB42CB80023A423 /* SpeakingSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074B4FF1EF765600072C8C3 /* SpeakingSetting.swift */; };
@@ -1223,7 +1224,6 @@
 		E052DD871FB42CB80023A423 /* ScenarioLessonLearningItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074B4E91EF765600072C8C3 /* ScenarioLessonLearningItem.swift */; };
 		E052DD881FB42CB80023A423 /* CustomErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074B4571EF765600072C8C3 /* CustomErrorCode.swift */; };
 		E052DD8A1FB42CB80023A423 /* ExpAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08B3BA51F0E2BDF0067567A /* ExpAnimationView.swift */; };
-		E052DD951FB42CB80023A423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */; };
 		E052DD961FB42CB80023A423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04004C01EF2659D00C9AA4B /* Assets.xcassets */; };
 		E052DD971FB42CB80023A423 /* removeClass.txt in Resources */ = {isa = PBXBuildFile; fileRef = E074B4DD1EF765600072C8C3 /* removeClass.txt */; };
 		E06D6BD01EF8C4FA0001EB21 /* SwiftSiriWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D6BCF1EF8C4FA0001EB21 /* SwiftSiriWaveformView.swift */; };
@@ -1767,6 +1767,7 @@
 		8C80EEB31F034F580057526A /* UIButtonVerticalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonVerticalLayout.swift; sourceTree = "<group>"; };
 		946D473E286D8A9A0011FC5C /* Login2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
 		9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController_2.swift; sourceTree = "<group>"; };
+		94B470E32871887500906319 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B065DAD0A4280E6A8BC92C2E /* Pods_Chinese_ChineseDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chinese_ChineseDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DF72081FD15AE800D658B9 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		C4DF720A1FD15AF500D658B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -1776,7 +1777,6 @@
 		CDE455C5C691300DA1FBDB24 /* Pods-Chinese-ChineseStaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese-ChineseStaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chinese-ChineseStaging/Pods-Chinese-ChineseStaging.release.xcconfig"; sourceTree = "<group>"; };
 		E04004B61EF2659D00C9AA4B /* ChineseDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E04004C01EF2659D00C9AA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E04004C31EF2659D00C9AA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04004C51EF2659D00C9AA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04004CE1EF2659D00C9AA4B /* PracticeChineseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeChineseTests.swift; sourceTree = "<group>"; };
 		E04004D01EF2659D00C9AA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2662,7 +2662,7 @@
 			children = (
 				244ABE7021DCA0DF00A678B0 /* PracticeChinese-Bridging-Header.h */,
 				E04004C51EF2659D00C9AA4B /* Info.plist */,
-				E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */,
+				94B470E32871887500906319 /* LaunchScreen.storyboard */,
 				01BAA82F2871627A0020EEAE /* Register.storyboard */,
 				E074B4401EF764CB0072C8C3 /* API */,
 				244AB89D21DC6A2000A678B0 /* Base */,
@@ -3235,7 +3235,7 @@
 				244ABA4821DC7BA700A678B0 /* HeaderView.xib in Resources */,
 				244ABDCA21DC8F4300A678B0 /* PractiseSummaryViewController.xib in Resources */,
 				244ABDF121DC8F4300A678B0 /* PractiseHeaderView.xib in Resources */,
-				949BBD98286E974D00C94707 /* LaunchScreen.storyboard in Resources */,
+				94B470E42871887500906319 /* LaunchScreen.storyboard in Resources */,
 				244AB9C821DC7B7000A678B0 /* AchievementHeader.xib in Resources */,
 				244ABE6621DC8F4400A678B0 /* PractiseSummaryHeader.xib in Resources */,
 				244AB9D421DC7B7000A678B0 /* CompletedLandCell.xib in Resources */,
@@ -3285,7 +3285,6 @@
 				244AB9E721DC7B7000A678B0 /* LandView.xib in Resources */,
 				244ABDCB21DC8F4300A678B0 /* PractiseSummaryViewController.xib in Resources */,
 				244ABA2B21DC7BA700A678B0 /* LearnMoreCell.xib in Resources */,
-				E052DBF11FB428CC0023A423 /* LaunchScreen.storyboard in Resources */,
 				244AB96621DC76FC00A678B0 /* SettingTitleCell.xib in Resources */,
 				244ABE3121DC8F4300A678B0 /* PractiseIntroHeaderView.xib in Resources */,
 				244AB9E421DC7B7000A678B0 /* LandDetailHeader.xib in Resources */,
@@ -3300,6 +3299,7 @@
 				244ABE2521DC8F4300A678B0 /* LearnSummaryHeader.xib in Resources */,
 				244ABDF221DC8F4300A678B0 /* PractiseHeaderView.xib in Resources */,
 				244AB9C621DC7B7000A678B0 /* UserAchievementCell.xib in Resources */,
+				94B470E52871887500906319 /* LaunchScreen.storyboard in Resources */,
 				244AB95D21DC76FC00A678B0 /* SettingItemCell.xib in Resources */,
 				E052DBF31FB428CC0023A423 /* removeClass.txt in Resources */,
 				244ABDA421DC8F4300A678B0 /* PractiseReadingCell.xib in Resources */,
@@ -3321,12 +3321,12 @@
 				244ABD0A21DC8A4C00A678B0 /* blueDot.png in Resources */,
 				244AB9D621DC7B7000A678B0 /* CompletedLandCell.xib in Resources */,
 				244ABE6821DC8F4400A678B0 /* PractiseSummaryHeader.xib in Resources */,
+				94B470E62871887500906319 /* LaunchScreen.storyboard in Resources */,
 				244AB9EB21DC7B7000A678B0 /* AnimationView.xib in Resources */,
 				244ABDAE21DC8F4300A678B0 /* PractiseSummaryCell.xib in Resources */,
 				244AB9E821DC7B7000A678B0 /* LandView.xib in Resources */,
 				244ABDCC21DC8F4300A678B0 /* PractiseSummaryViewController.xib in Resources */,
 				244ABA2C21DC7BA700A678B0 /* LearnMoreCell.xib in Resources */,
-				E052DD951FB42CB80023A423 /* LaunchScreen.storyboard in Resources */,
 				244AB96721DC76FC00A678B0 /* SettingTitleCell.xib in Resources */,
 				244ABE3221DC8F4300A678B0 /* PractiseIntroHeaderView.xib in Resources */,
 				E0C27DF521E4DAB700CC6E23 /* CompletedLessonCell.xib in Resources */,
@@ -5019,17 +5019,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E04004C31EF2659D00C9AA4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E04004DC1EF2659D00C9AA4B /* Debug */ = {
