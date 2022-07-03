@@ -9,7 +9,7 @@
 import UIKit
 
 import YYText
-class Login2ViewController: UIViewController, UIGestureRecognizerDelegate {
+class Login22ViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var label1:UILabel!
     @IBOutlet weak var code_text:UITextField!
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BAA82C28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
+		01BAA82D28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
+		01BAA82E28714CB60020EEAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BAA82B28714CB60020EEAE /* RegisterViewController.swift */; };
 		0ED9B19C699898FE02CE6322 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E752AD2ECB992223047214E4 /* Pods_Chinese_ChineseStaging.framework */; };
 		1597825264A95E2C6E8998D0 /* Pods_Chinese_Microsoft_Learn_Chinese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33299C36CBF7AF07D4F79EB /* Pods_Chinese_Microsoft_Learn_Chinese.framework */; };
 		1ECBC153E1E40F8959274861 /* Pods_Chinese_ChineseStaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63551AE634714002E4B4C1C1 /* Pods_Chinese_ChineseStaging.framework */; };
@@ -588,6 +591,9 @@
 		946D473F286D8A9A0011FC5C /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946D473E286D8A9A0011FC5C /* Login2ViewController.swift */; };
 		946D4740286D8A9A0011FC5C /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946D473E286D8A9A0011FC5C /* Login2ViewController.swift */; };
 		946D4741286D8A9A0011FC5C /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946D473E286D8A9A0011FC5C /* Login2ViewController.swift */; };
+		9470C00A28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
+		9470C00B28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
+		9470C00C28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */; };
 		949BBD98286E974D00C94707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04004C21EF2659D00C9AA4B /* LaunchScreen.storyboard */; };
 		A30D43C94E0542CDA9997553 /* Pods_Chinese_ChineseDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B065DAD0A4280E6A8BC92C2E /* Pods_Chinese_ChineseDev.framework */; };
 		C4CE97C52091CA32009AE329 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -1538,6 +1544,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01BAA82B28714CB60020EEAE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		244AB93221DC757D00A678B0 /* UserNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotifications.swift; sourceTree = "<group>"; };
 		244AB93721DC76FC00A678B0 /* MePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MePageViewController.swift; sourceTree = "<group>"; };
 		244AB93921DC76FC00A678B0 /* InputingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputingViewCell.swift; sourceTree = "<group>"; };
@@ -1755,6 +1762,7 @@
 		8C6BB5E31F188E8F009C094D /* LCWeakTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWeakTimer.swift; sourceTree = "<group>"; };
 		8C80EEB31F034F580057526A /* UIButtonVerticalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonVerticalLayout.swift; sourceTree = "<group>"; };
 		946D473E286D8A9A0011FC5C /* Login2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
+		9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController_2.swift; sourceTree = "<group>"; };
 		B065DAD0A4280E6A8BC92C2E /* Pods_Chinese_ChineseDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chinese_ChineseDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DF72081FD15AE800D658B9 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		C4DF720A1FD15AF500D658B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -2581,6 +2589,8 @@
 			isa = PBXGroup;
 			children = (
 				946D473E286D8A9A0011FC5C /* Login2ViewController.swift */,
+				01BAA82B28714CB60020EEAE /* RegisterViewController.swift */,
+				9470C00928715CFA0051E6B3 /* Login2ViewController_2.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -3631,6 +3641,7 @@
 				244ABCA021DC86B900A678B0 /* LCRecordingView.swift in Sources */,
 				244ABD9121DC8F4300A678B0 /* PractiseViewController.swift in Sources */,
 				E074B5ED1EF765600072C8C3 /* SpeakingTTSResult.swift in Sources */,
+				01BAA82C28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244AB9F521DC7B7000A678B0 /* LandDetailHeader.swift in Sources */,
 				E0C27DF621E4DAB700CC6E23 /* CompeletedPractiseCell.swift in Sources */,
 				E074B64C1EF766900072C8C3 /* PNChartLabel.m in Sources */,
@@ -3750,6 +3761,7 @@
 				E074B6561EF766900072C8C3 /* PNRadarChartDataItem.m in Sources */,
 				E074B5B01EF765600072C8C3 /* RecitingTestHistoryQuery.swift in Sources */,
 				244ABE3C21DC8F4300A678B0 /* PractiseIntroHeader.swift in Sources */,
+				9470C00A28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */,
 				E074B52D1EF765600072C8C3 /* AudioFormatConverterFormats.swift in Sources */,
 				E074B6081EF765600072C8C3 /* VideoSentenceDictionary.swift in Sources */,
 				E074B5931EF765600072C8C3 /* RecitingGetTestPaperResult.swift in Sources */,
@@ -4108,6 +4120,7 @@
 				E052DA881FB428CC0023A423 /* ReadAfterMeLesson.swift in Sources */,
 				244ABDF521DC8F4300A678B0 /* XPDragingViewSentence.swift in Sources */,
 				24608B3A21774DFD00E3A54E /* CWLog.swift in Sources */,
+				01BAA82D28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244AB9F621DC7B7000A678B0 /* LandDetailHeader.swift in Sources */,
 				E0C27DF721E4DAB700CC6E23 /* CompeletedPractiseCell.swift in Sources */,
 				244ABE6421DC8F4400A678B0 /* ToggleButton.m in Sources */,
@@ -4227,6 +4240,7 @@
 				E052DAEC1FB428CC0023A423 /* RecitingSettingQuizOption.swift in Sources */,
 				E052DAEE1FB428CC0023A423 /* PNRadarChartDataItem.m in Sources */,
 				E052DAEF1FB428CC0023A423 /* RecitingTestHistoryQuery.swift in Sources */,
+				9470C00B28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */,
 				E052DAF01FB428CC0023A423 /* AudioFormatConverterFormats.swift in Sources */,
 				E052DAF11FB428CC0023A423 /* VideoSentenceDictionary.swift in Sources */,
 				E052DAF31FB428CC0023A423 /* RecitingGetTestPaperResult.swift in Sources */,
@@ -4519,6 +4533,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BAA82E28714CB60020EEAE /* RegisterViewController.swift in Sources */,
 				244ABE7921DCA36700A678B0 /* LessonsViewController.swift in Sources */,
 				244ABE7621DCA31B00A678B0 /* LearnedLessonsViewController.swift in Sources */,
 				244ABE7521DCA31300A678B0 /* LearnedWordsViewController.swift in Sources */,
@@ -4664,6 +4679,7 @@
 				244ABD3321DC8BD700A678B0 /* GlobalSettings.swift in Sources */,
 				E052DC741FB42CB80023A423 /* PNScatterChartData.m in Sources */,
 				E052DC761FB42CB80023A423 /* GetTaskSummaryResult.swift in Sources */,
+				9470C00C28715CFA0051E6B3 /* Login2ViewController_2.swift in Sources */,
 				E052DC781FB42CB80023A423 /* FooterPickerView.swift in Sources */,
 				E052DC791FB42CB80023A423 /* PronunciationRaterData.swift in Sources */,
 				244ABCFE21DC8A4C00A678B0 /* YBPopupMenuPath.m in Sources */,
