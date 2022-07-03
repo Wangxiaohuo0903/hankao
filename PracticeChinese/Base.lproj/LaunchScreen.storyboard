@@ -115,20 +115,39 @@
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk4-b0-abn">
-                                <rect key="frame" x="5" y="472" width="69" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk4-b0-abn">
+                                <rect key="frame" x="16" y="471" width="15" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" selected="YES"/>
                                 </accessibility>
-                                <state key="normal" title="Button" image="Unselected"/>
+                                <state key="normal" image="Unselected"/>
                                 <state key="selected" image="selected"/>
+                                <connections>
+                                    <action selector="Check_ProtocolWithSender:" destination="bv5-PA-KVI" eventType="touchUpInside" id="vds-sp-D55"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6V1-jQ-YZ2">
+                                <rect key="frame" x="60" y="448" width="263" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="I have read and agree to the User Agreement and Privacy Policy">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="system" size="16"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="Check_Button" destination="bk4-b0-abn" id="GeQ-vh-SpF"/>
                         <outlet property="Login_Button" destination="mwD-K3-W7R" id="bsK-TU-76F"/>
+                        <outlet property="Protocol_Textview" destination="6V1-jQ-YZ2" id="hAE-by-JDZ"/>
                         <outlet property="code_text" destination="bf5-kz-dnb" id="4dj-eD-yfn"/>
                         <outlet property="im1" destination="ewv-7R-5ay" id="Nn0-sm-oX5"/>
                         <outlet property="label1" destination="7Zd-pk-iF8" id="41N-vV-lBc"/>

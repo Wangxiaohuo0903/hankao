@@ -20,5 +20,113 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PracticeChinese/Module/Register/Login2ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "Login2ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 32488dc4ec32164"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.Height.getter : Swift.Int"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 78a83e42cc571068"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.Height.setter : Swift.Int"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 947fda660c8cdda7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.Height.modify : Swift.Int"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 84f39c95903c54af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.Height.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 6465b5fbe007bbb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Microsoft_Learn_Chinese.Login2ViewController"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+               <Location
+                  uuid = "B0B6A78F-F9E3-42D6-A713-7AEF16D30835 - 578d61183d4ad6fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Microsoft_Learn_Chinese.Login2ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Microsoft_Learn_Chinese.Login2ViewController&gt;"
+                  moduleName = "Microsoft Learn Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangjin/Desktop/PracticeChinese/PracticeChinese/Module/Register/Login2ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1113">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

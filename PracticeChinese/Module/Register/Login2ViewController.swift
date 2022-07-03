@@ -7,15 +7,18 @@
 //
 
 import UIKit
-
-class Login2ViewController: UIViewController {
-@IBOutlet weak var label1:UILabel!
-@IBOutlet weak var code_text:UITextField!
+import YYText
+class Login2ViewController: UIViewController, UIGestureRecognizerDelegate {
+    @IBOutlet weak var label1:UILabel!
+    @IBOutlet weak var code_text:UITextField!
     @IBOutlet weak var user_text:UITextField!
     @IBOutlet weak var im1:UIImageView!
     @IBOutlet weak var Login_Button:UIButton!
+    @IBOutlet weak var Check_Button:UIButton!
+    @IBOutlet weak var Protocol_Textview:UITextView!
     var Radius=20
     var Height=45
+    var Check_status=false
     override func viewDidLoad() {
 
         super.viewDidLoad()
@@ -30,9 +33,29 @@ class Login2ViewController: UIViewController {
         self.Login_Button.height_s=CGFloat(Height)
         self.Login_Button.alpha=0.5
         self.Login_Button.layer.opacity=0.5
+        if #available(iOS 13.0, *) {
+            let NormalAttributes = [NSAttributedString.Key.foregroundColor: UIColor.opaqueSeparator,NSAttributedString.Key.font:UIFont.systemFont(ofSize: 16)] as [NSAttributedString.Key : Any]
+        let UserProtocolAttributes = [NSAttributedString.Key.foregroundColor: UIColor.link,NSAttributedString.Key.link:"https://www.baidu.com",NSAttributedString.Key.font:UIFont.systemFont(ofSize: 16)] as [NSAttributedString.Key : Any]
+        let PrivacyAttributes = [NSAttributedString.Key.foregroundColor: UIColor.link,NSAttributedString.Key.link:"https://www.baidu.com",NSAttributedString.Key.font:UIFont.systemFont(ofSize: 16)] as [NSAttributedString.Key : Any]
+        
+        let User_string=NSAttributedString(string:"User Agreement",attributes: UserProtocolAttributes)
+        let Privacy_string=NSAttributedString(string:"Privacy Policy",attributes: PrivacyAttributes)
+        let And_string=NSAttributedString(string:" and ",attributes: NormalAttributes)
+        let MyAttributeString = NSMutableAttributedString(string: "I have read and agree to the ", attributes:NormalAttributes)
 
+        MyAttributeString.append(User_string)
+        MyAttributeString.append(And_string)
+        MyAttributeString.append(Privacy_string)
+
+        self.Protocol_Textview.attributedText = MyAttributeString
+        } else {
+            // Fallback on earlier versions
+        }
+
+        
 
     }
+    
     @IBAction func Login_Button_Click(sender:AnyObject){
         
         let User_id=self.user_text.text
@@ -41,7 +64,14 @@ class Login2ViewController: UIViewController {
         {
             ShowAlert(Ch_Message: "账号/密码不得为空", En_Message: "The account number/password must not be empty",Button_text: "确认 OK")
         }
-        //dismiss(animated: true, completion: nil)
+        else if(!Check_status){
+            ShowAlert(Ch_Message: "请阅读后勾选同意用户协议", En_Message: "Please read and tick to agree to the User Agreement",Button_text: "确认 OK")
+        }
+        else
+        {
+            dismiss(animated: true, completion: nil)
+            
+        }
         
     }
     func ShowAlert(Ch_Message:String,En_Message:String,Button_text:String){
@@ -69,6 +99,17 @@ class Login2ViewController: UIViewController {
         self.user_text.layer.borderWidth=0
         self.Login_Button.alpha=1
         self.Login_Button.layer.opacity=1
+    }
+    @IBAction func Check_Protocol(sender:AnyObject){
+        Check_status = !Check_status
+        if(Check_status)
+        {
+            self.Check_Button.isSelected=true
+        }
+        else
+        {
+            self.Check_Button.isSelected=false
+        }
     }
     /*
     // MARK: - Navigation
